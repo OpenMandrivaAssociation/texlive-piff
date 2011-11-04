@@ -1,3 +1,9 @@
+# revision 21894
+# category Package
+# catalog-ctan /macros/latex/contrib/piff
+# catalog-date 2010-12-08 08:17:08 +0100
+# catalog-license pd
+# catalog-version undef
 Name:		texlive-piff
 Version:	20101208
 Release:	1
@@ -51,6 +57,7 @@ format time.
 %doc %{_texmfdistdir}/doc/latex/piff/onepagem-doc.tex
 %doc %{_texmfdistdir}/doc/latex/piff/time-doc.pdf
 %doc %{_texmfdistdir}/doc/latex/piff/time-doc.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -61,3 +68,5 @@ format time.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
