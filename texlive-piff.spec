@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-piff
 Version:	20101208
-Release:	3
+Release:	4
 Summary:	Macro tools by Mike Piff
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/piff
