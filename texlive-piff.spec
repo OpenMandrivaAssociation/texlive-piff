@@ -1,6 +1,6 @@
 Name:		texlive-piff
 Version:	21894
-Release:	1
+Release:	2
 Summary:	Macro tools by Mike Piff
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/piff
