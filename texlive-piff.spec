@@ -3,7 +3,7 @@ Version:	21894
 Release:	2
 Summary:	Macro tools by Mike Piff
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/piff
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/piff
 License:	PD
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/piff.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/piff.doc.r%{version}.tar.xz
